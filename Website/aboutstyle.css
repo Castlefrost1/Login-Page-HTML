@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("aboutbanner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  h2 {
+      text-align: center;
+  }
+
+  p {
+      text-align: center;
+  }
+  
+  .column {
+    text-align: justify;
+    float: justify;
+    background-color: #6d8ccee7;
+    margin-bottom: 16px;
+    padding: 100px;
+  }
+
+  .columnBox {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffffd0;
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 100px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+    /* Add a blue text color to links */
+    a {
+        color: dodgerblue;
+      }
+    
+      .header {
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.384);
+        padding: 20px 10px;
+      }
+      
+      .header a {
+        float: left;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px; 
+        line-height: 25px;
+        border-radius: 4px;
+      }
+      
+      .header a.logo {
+        font-size: 25px;
+        font-weight: bold;
+      }
+      
+      .header a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .header a.active {
+        background-color: dodgerblue;
+        color: white;
+      }
+      
+      .header-right {
+        float: right;
+      }
+      
+      @media screen and (max-width: 500px) {
+        .header a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+        
+        .header-right {
+          float: none;
+        }
+      }
+
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }

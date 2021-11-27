@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aboutstyle.css">
+    <title>About</title>
+</head>
+<body>
+    <div class="header" id="myHeader">
+        <a class="logo">Klinika Online Booking</a>
+        <div class="header-right">
+          <a href="Main Page.html">Home</a>
+          <a class="active" href="#about">About</a>
+        </div>
+      </div>
+    <div class="about-section">
+        <h1>About Klinika</h1>
+        <p>The Hospital That cares.</p>
+      </div>
+      
+      <h2 style="text-align:center">Overview</h2>
+      <div class="column">
+      <p>Klinika is a private, trust-managed, autonomous, hospital. It is a multidisciplinary, 480-bed, tertiary care hospital. It houses several wards, operation theatres, ICUs, laboratories, utility services, specialties and super specialties, including one of the best blood banks in the country, catering to the entire state of Indonesia.
+        Our firm endeavour, and our sincere belief, is that philanthropic healthcare is not only possible; it is also desirable. It is NOT an oxymoron. It must be implemented whenever we take care of other people’s health. That is our goal, and will always remain our destiny. In doing this, we achieve a cleansing of the soul. We strive also to reach a higher level of divinity which, is not only therapeutic but also transformational.</p>
+      </div>
+      
+      <h2 style="text-align:center">Vision & Mission</h2>
+<div class="row">
+  <div class="columnBox">
+    <div class="card">
+      <div class="container">
+        <h2>Vision</h2>
+        <p>Klinika shall be an integrated quaternary healthcare hub for delivery of affordable quality medical care in an economically viable, regionally, nationally and internationally positioned institutional environment.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="columnBox">
+    <div class="card">
+      <div class="container">
+        <h2>Value</h2>
+        <p>Efficiency</br>Emphaty</br>Integrity</br>Progressiveness</br>Trust</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="columnBox">
+    <div class="card">
+      <div class="container">
+        <h2>Mission</h2>
+        <p>Klinika is committed to provide quality health care at the most affordable rates to all sections of society, irrespective of caste, creed or color. Towards making this possible, we pledge to dedicate all our efforts and all our energies.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  window.onscroll = function() {headFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function headFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

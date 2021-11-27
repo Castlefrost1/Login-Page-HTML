@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 100px;
+  }
+  
+  /* Full-width input firstname, lastname */
+  .namebox{
+    width: 25%;
+    padding: 15px;
+    margin: 0.1px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+    border-radius: 8px;
+  }
+  
+  /* Full-width input fields */
+  .longbox{
+    width: 50.34%;
+    padding: 15px;
+    margin: 0.1px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+    border-radius: 8px;
+  }
+  
+  /* Full-width input dropdown */
+  .menubox{
+    width: 8%;
+    padding: 15px;
+    margin: 0.1px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 1;
+    border-radius: 8px;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+    box-shadow: 0px 1px 18px #24c64f;
+    transition: 0.25s;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+
+  .header {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.384);
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  }
+
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
